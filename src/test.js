@@ -2,10 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class Test extends React.Component {
-	render () {
-		return <h1>This is a Test</h1>;
-	}
+// class Test extends React.Component {
+// 	render () {
+// 		return <h1>This is a Test</h1>;
+// 	}
+// }
+
+// export default Test;
+
+function Test () {
+	return <h1>This is a different Test</h1>;
 }
 
 export default Test;
